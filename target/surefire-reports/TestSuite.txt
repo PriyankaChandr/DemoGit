@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 6, Time elapsed: 2.357 s <<< FAILURE! - in TestSuite
+Academy.validationTitle.initializing  Time elapsed: 1.281 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.validationTitle.initializing(validationTitle.java:25)
+
+Academy.validationNavigationbar.initializing  Time elapsed: 1.281 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.validationNavigationbar.initializing(validationNavigationbar.java:22)
+
+Academy.HomePage.initializing  Time elapsed: 1.281 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.HomePage.initializing(HomePage.java:27)
+
+Academy.HomePage.basePageNavigation  Time elapsed: 0.003 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void Academy.HomePage.basePageNavigation(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: basePageNavigation([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) priyanka@abc.com,(java.lang.String) 1234]
+
